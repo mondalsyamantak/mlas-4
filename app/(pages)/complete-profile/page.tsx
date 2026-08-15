@@ -456,7 +456,7 @@ export default function CompleteProfilePage() {
 
                   <Select
                     value={year}
-                    onValueChange={(value) => {
+                    onValueChange={(value: string) => {
                       setYear(value);
 
                       if (errors.year) {
